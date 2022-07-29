@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: #1d2630;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #1bb5d8;
+    font-size: 80px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
